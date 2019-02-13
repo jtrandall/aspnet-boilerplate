@@ -30,7 +30,8 @@ namespace Boilerplate.Web.Mvc.Models
                 SupportedMediaTypes = { new System.Net.Http.Headers.MediaTypeHeaderValue("text/html") }
             };
 
-            controllerSettings.Formatters.Add(formatter);
+            // insert as first - want this to be default
+            controllerSettings.Formatters.Insert(0, formatter);
         }
     }
 }
