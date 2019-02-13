@@ -22,7 +22,7 @@ public class SampleApiController : ApiController
     }
 }
 ```
-This class will return
+This will return (note that the property names are camel-cased)
 ```json
 [
     {
