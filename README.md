@@ -22,3 +22,20 @@ public class SampleApiController : ApiController
     }
 }
 ```
+This class will return
+```json
+[
+    {
+        "name": "Henry Smith",
+        "address": "403 Main Street"
+    },
+    {
+        "name": "Julie Vasquez",
+        "address": "931 Starks Street"
+    },
+    {
+        "name": "Holly Ford",
+        "address": "192 Hillside Boulevard"
+    }
+]
+```
